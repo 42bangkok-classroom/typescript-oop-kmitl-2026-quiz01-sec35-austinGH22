@@ -1,6 +1,17 @@
+import { parseEnv } from "util";
+
 const score1 : string = process.argv[2];
 const grade : number = parseInt(score1);
 
+for(let i = 0 ; i<score1.length ; i++){
+    let currentscore1 = score1[i]
+    let current = parseInt(currentscore1)
+
+    if(Number.isNaN(current)===true){
+        console.log(`Invalid Input`)
+    }
+    
+}
 if (Number.isNaN(grade)){
   console.log("Invalid Input");
 }
