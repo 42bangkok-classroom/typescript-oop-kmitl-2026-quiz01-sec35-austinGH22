@@ -2,7 +2,10 @@ import { parseEnv } from "util";
 
 const score1 : string = process.argv[2];
 const grade = Number(score1);
-if (Number.isNaN(grade)){
+if(score1 === ''){
+    console.log(`Invalid Input`)
+}
+else if(Number.isNaN(grade)){
   console.log("Invalid Input");
 }
 else if (grade < 0 || grade > 100){
