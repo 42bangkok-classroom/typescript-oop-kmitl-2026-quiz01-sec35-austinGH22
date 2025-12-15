@@ -11,16 +11,16 @@ const num4 : number = parseInt(num4String);
 const operator = inputOperator.toLowerCase() ;
 switch(operator){
   case "add" :
-    console.log(num2+num4);
+    console.log(num2+num4 + '');
     break ;
   case "sub" :
-    console.log(num2-num4);
+    console.log(num2-num4 + '');
     break ;
   case "mul":
-    console.log(num2 * num4);
+    console.log(num2 * num4+ '');
     break;
   case "div":
-    console.log(num2/num4);
+    console.log(num2/num4+ '');
     break;
 }
 
