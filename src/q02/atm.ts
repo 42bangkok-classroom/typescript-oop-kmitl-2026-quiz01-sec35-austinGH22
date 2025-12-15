@@ -6,7 +6,7 @@ const balance : number = parseInt(balanceString);
 const amount : number = parseInt(amounthString);
 
 if(Number.isNaN(balance)  || Number.isNaN(amount) ){
-    console.log("Invalid input")
+    console.log("Invalid Input")
 }
 else{
     if(amount > 5000){
